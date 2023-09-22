@@ -1,89 +1,136 @@
 <!doctype html>
 <html lang="nl">
-	
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="author" content="Tim Keizer">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
+
 	<title>Sneakerjagers</title>
-	
+
 	<link href="styles/style.css" rel="stylesheet">
 	<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
-<link rel="manifest" href="images/site.webmanifest">
-<link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5">
-<meta name="msapplication-TileColor" content="#da532c">
-<meta name="theme-color" content="#ffffff">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+	<link rel="manifest" href="images/site.webmanifest">
+	<link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
 </head>
 
 <body>
 	<header>
+		<nav class="nav_menu">
+			<ul>
+				<li class="nav_item"><a href="#">sneakers</a></li>
+				<li class="nav_item"><a href="./releases.html">releases</a></li>
+				<li class="nav_item"><a href="#">resell</a></li>
+				<li class="nav_item"><a href="#">sale</a></li>
+				<li class="nav_item"><a href="#">sustainable</a></li>
+				<li class="nav_item"><a href="#">news</a></li>
+				<li class="nav_item"><a href="#">app</a></li>
+				<li class="nav_item"><a href="#">shop</a></li>
+			</ul>
+
+			<div class="hamburger">
+				<span class="bar"></span>
+				<span class="bar"></span>
+				<span class="bar"></span>
+			</div>
+
+
+		</nav>
+
 		<img src="/images/sneakerjagers-1.png" alt="">
+
+		<h1>Jouw Sneakerzoekmachine</h1>
+		<h2>Vind jouw paar paar bij meer dan 150 sneakershops</h2>
 	</header>
-	<h1>Jouw Sneakerzoekmachine</h1>
-	<h2>Vind jouw paar paar bij meer dan 150 sneakershops</h2>
-	<!-- <label for="search_bar">Vind je sneakers hier...</label> -->
 	<input type="text" name="search_bar" id="search_sneaker" placeholder="Vind je sneakers hier...">
-	<img src="" alt="">
+	<!-- <img src="./images/footlockerbts.jpg" alt=""> -->
 
-<!-- Upcoming Releases -->
-<section>
-	<h2>Upcoming releases</h2>
-</section>
+	<!-- Upcoming Releases -->
+	<div class="upcoming">
+		<h2>Upcoming releases</h2>
+		<a href="./releases.html">Toon meer >></a>
+	</div>
+	<!-- <section class="releases_index"> -->
 
-<img src="/images/footlockerbts.jpg" alt="">
+	<section>
+		<article>
+			<img src="./images/schoentest1.png" alt="">
+			<h4>Fenty x Puma avantie VL 'Black'</h4>
+		</article>
+		<article>
+			<img src="./images/airmax-pink.png" alt="">
+			<h4>Nike Airmax 1 "Pink"</h4>
+		</article>
+		<article>
+			<img src="./images/schoentest1.png" alt="">
+			<h4>Fenty x Puma avantie VL 'Black'</h4>
+		</article>
+		<article>
+			<img src="./images/schoentest1.png" alt="">
+			<h4>Fenty x Puma avantie VL 'Black'</h4>
+		</article>
 
-<!-- Laatste nieuws -->
-<section>
-	<h2>Laatste nieuws</h2>
-	<article>
+	</section>
 
-	</article>
+	<picture>
+		<source srcset="./images/ad1.jpeg" media="(min-width: 600px)" />
+		<source srcset="./images/ad2.jpeg" media="(min-width: 200px)" />
+		<img src="./images/ad1.jpeg" alt="Advertentie1" />
+	</picture>
 
-</section>
+	<!-- Laatste nieuws -->
+	<section>
+		<h2>Laatste nieuws</h2>
+		<article>
 
-<!-- Nu populair -->
-<section>
-	<h2>nu populair</h2>
-</section>
+		</article>
 
-<!-- sneaker stories -->
-<h2>Sneaker Stories</h2>
+	</section>
 
-	
+	<!-- Nu populair -->
+	<section>
+		<h2>nu populair</h2>
+	</section>
+
+	<!-- sneaker stories -->
+	<h2>Sneaker Stories</h2>
+
+
 
 
 	<!-- Footer -->
 	<footer>
-		<img src="/images/sneakerjagers-1.png" alt="">
+		<img src="./images/sneakerjagers-1.png" alt="">
 		<!--Second Quik Links-->
 		<section>
-            <h3>Quik Links</h3>
-            <ul>
-            <li>Merken</li>
-            <li>Modellen</li>
-            <li>Black Friday</li>
-            <li>Nike Air Max day</li>
-            <li>Sneaker Shopping Guide</li>
-            <li>Sneaker Size Guide</li>
-            <li>Sneaker FAQ</li>
-        </ul>
+			<h3>Quik Links</h3>
+			<ul>
+				<li>Merken</li>
+				<li>Modellen</li>
+				<li>Black Friday</li>
+				<li>Nike Air Max day</li>
+				<li>Sneaker Shopping Guide</li>
+				<li>Sneaker Size Guide</li>
+				<li>Sneaker FAQ</li>
+			</ul>
 
-            <!--Second Company-->
-            <h3>Over ons</h3>
-            <ul>>
-            <li>Jobs</li>
-            <li>Adverteren</li>
-            </ul>
+			<!--Second Company-->
+			<h3>Over ons</h3>
+			<ul>>
+				<li>Jobs</li>
+				<li>Adverteren</li>
+			</ul>
 
-            <!-- third support -->
-            <h3> Support </h3>
-            <ul>
-            <li>Contact</li>
-            <li>FAQ</li>
-            </ul>
+			<!-- third support -->
+			<h3> Support </h3>
+			<ul>
+				<li>Contact</li>
+				<li>FAQ</li>
+			</ul>
 	</footer>
 
 
@@ -95,5 +142,5 @@
 
 
 
-	
+
 </html>
