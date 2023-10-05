@@ -22,7 +22,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   blauw/rood
 
   #### Je focus:
-  hier je focus (kies uit responsive óf surface plane)
+  hier je focus (responsive)
  
 </details>
 
@@ -40,11 +40,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   home pagina
-  <img src="readme-images/homepagina" width="375px" alt="homepagina">
+  <img src="./readme-images/homepagina" width="375px" alt="homepagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   detail pagina
-  <img src="readme-images/detailpagina" width="375px" alt="detailpagina">
+  <img src="./readme-images/detailpagina" width="375px" alt="detailpagina">
 
   
  
@@ -86,7 +86,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik wist niet goed welke elementen ik moest gebruiken voor bepaalde delen van de website.
+  Ik keek teveel naar de code van inspect en niet naar logische oplossingen.
 
 
   ### Agenda voor meeting
@@ -102,10 +103,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - punt 1: Ik weet nu welke elementen ik moet gebruiken voor delen van de website.
+
 
 </details>
 
@@ -119,7 +118,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Goed op weg alleen flinke problemen gehad met het maken van een responsive hamburger menu.
 
 
   ### Agenda voor meeting
@@ -135,9 +134,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
+  - punt 1: Het hamburger menu hoefde niet de focus te krijgen volgends de student assistent,
+  omdat ik kies voor responsive design.
+  - punt 2 Goed kijken welke elementen je moet gebruiken.
+  - Duidelijke en betrouwbare bronnen gebruiken.
 - ...
 
 </details>
@@ -199,19 +199,27 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src=".//readme-images/ss4.png" width="375px" alt="">
 
 
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatjes
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  Het actief gebruik maken van media queries.
+
+  <img src="./readme-images/ss1.png" width="375px" alt="screenshot">
+  <img src="./readme-images/ss2.png" width="375px" alt="screenshot">
 
 
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatjes
+  Het maken van de correcte navigatie en deze responsive krijgen met een hamburger menu daarbij heb ik weinig tijd kunnen besteden aan de 2e pagina. op de 2e pagina werkte de normale navigatie ook niet mee.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  Voor en heb ik de footer niet correct kunnen afmaken :C.
+
+  <img src="./readme-images/ss3.png" width="375px" alt="bummer">
+  <img src="./readme-images/ss5.png" width="375px" alt="bummer">
+  <img src="./readme-images/ss6.png" width="375px" alt="bummer">
 </details>
 
 
@@ -227,8 +235,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
+  1. bron 1: https://css-tricks.com/snippets/css/complete-guide-grid/ / https://css-tricks.com/snippets/css/a-guide-to-flexbox/ / https://css-tricks.com/almanac/properties/p/position/
   2. bron 2
-  3. ...
+  3. bron 3: chatGpt voor uitleg over bepaalde elementen zoals de mediaqueries, welke elementen waarvoor staan in JS.
 
 </details>

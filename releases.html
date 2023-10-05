@@ -17,19 +17,133 @@
 </head>
 
 <body>
-    <header>
-        <img src="/images/sneakerjagers-1.png" alt="">
-        <label for="search_bar">Vind je sneakers hier...</label>
-        <input type="text" name="search_bar" id="search_sneaker">
+
+    <header class="header2">
+		<img src="./images/sneakerjagers.svg" alt="">
+		<nav class="nav_menu">
+			<ul>
+				<li class="nav_item"><a href="#">sneakers</a></li>
+				<li class="nav_item"><a href="./releases.html">releases</a></li>
+				<li class="nav_item"><a href="#">resell</a></li>
+				<li class="nav_item"><a href="#">sale</a></li>
+				<li class="nav_item"><a href="#">sustainable</a></li>
+				<li class="nav_item"><a href="#">news</a></li>
+				<li class="nav_item"><a href="#">app</a></li>
+				<li class="nav_item"><a href="#">shop</a></li>
+			</ul>
+
+			<div class="hamburger">
+				<span class="bar"></span>
+				<span class="bar"></span>
+				<span class="bar"></span>
+			</div>
+		</nav>
+
+
+
+		<nav class="hidden_nav">
+			<img src="./images/sneakerjagers-1.png" alt="">
+			<ul>
+				<li class="nav_item"><a href="#">sneakers</a></li>
+				<li class="nav_item"><a href="./releases.html">releases</a></li>
+				<li class="nav_item"><a href="#">resell</a></li>
+				<li class="nav_item"><a href="#">sale</a></li>
+				<li class="nav_item"><a href="#">sustainable</a></li>
+				<li class="nav_item"><a href="#">news</a></li>
+				<li class="nav_item"><a href="#">app</a></li>
+				<li class="nav_item"><a href="#">shop</a></li>
+			</ul>
+			<input class="input1" type="text" name="search_bar" id="search_sneaker"
+				placeholder="Vind je sneakers hier...">
+
+			<div class="hamburger2">
+				<span class="bar2"></span>
+				<span class="bar2"></span>
+				<span class="bar2"></span>
+			</div>
+		</nav>
     </header>
+
+
+
+
+    <section class="top2">
     <h1>Releases</h1>
     <p>196 resultaten - pagina 1 van 5</p>
-    <p> Upcoming</p>
-    <p>Out now</p>
-    <button>Filter</button>
-    <p>Vandaag om 9:00</p>
+    </section>
 
-    <!-- eerste drops -->
+    <div class="upcoming_outnow">
+    <a href="#">>> Upcoming</a>
+    <a href="#">Out now</a>
+    </div>
+
+
+    <button type="button" class="filter-button" onclick="openPopup()">Filter</button>
+
+    <div class="popup" id="popup">
+        <div class="top-text">
+            <button type="button" onclick="closePopup()">Sluiten</button>
+            <h2>Filter</h2>
+            <button>Pas toe</button>
+        </div>
+        <div class="bottom-button">
+            <button>Merken</button>
+            <button>Modellen</button>
+        </div>
+    </div>
+
+<p class="drop-dag">Vandaag om 9:00</p>
+
+<section class="releases">
+
+    <article class="release">
+        <img src="./images/clarksoriginal.png" alt="Clarks Originals Natalie green">
+        <h4>Clarks Originals Natalie 'green'</h4>
+        <p>Over 9 uur </p>
+    </article>
+    <article class="release">
+        <img src="./images/aj1 .png" alt="Air Jordan 1 Mid SE WMNS Red Stardust ">
+		<h4>Air Jordan 1 Mid'Red Stardust'</h4>
+        <p>Over 10 uur </p>
+    </article>
+    <article class="release">
+        <img src="./images/schoentest1.png" alt="Nike Airoforce 1 white mentol pink ">
+        <h4>Nike Airforce 1 'White Mentol Pink'</h4>
+        <p>over 10 uur </p>
+    </article>
+    <article class="release">
+        <img src="./images/greyfog.png" alt="Nike dunk low 'Grey fog'">
+		<h4>Nike dunk low 'Grey fog'</h4>
+        <p>over 10 uur </p>
+    </article>
+
+    <article class="release">
+        <img src="./images/clarksoriginal.png" alt="Clarks Originals Natalie green">
+        <h4>Clarks Originals Natalie 'green'</h4>
+        <p>Over 9 uur </p>
+    </article>
+    <article class="release">
+        <img src="./images/aj1 .png" alt="Air Jordan 1 Mid SE WMNS Red Stardust ">
+		<h4>Air Jordan 1 Mid'Red Stardust'</h4>
+        <p>Over 10 uur </p>
+    </article>
+    <article class="release">
+        <img src="./images/schoentest1.png" alt="Nike Airoforce 1 white mentol pink ">
+        <h4>Nike Airforce 1 'White Mentol Pink'</h4>
+        <p>over 10 uur </p>
+    </article>
+    <article class="release">
+        <img src="./images/greyfog.png" alt="Nike dunk low 'Grey fog'">
+		<h2>Nike dunk low 'Grey fog'</h2>
+        <p>over 10 uur </p>
+    </article>
+</section>
+
+
+
+
+
+    <!--eerste drops-->
     <section>
         <h2></h2>
         <img src="" alt="">
@@ -56,7 +170,8 @@
     <footer>
         <img src="/images/sneakerjagers-1.png" alt="">
         <!--Second Quik Links-->
-        <section>
+
+     
             <h3>Quik Links</h3>
             <ul>
             <li>Merken</li>
@@ -70,7 +185,7 @@
 
             <!--Second Company-->
             <h3>Over ons</h3>
-            <ul>>
+            <ul>
             <li>Jobs</li>
             <li>Adverteren</li>
             </ul>
@@ -82,12 +197,10 @@
             <li>FAQ</li>
             </ul>
                 
-
-        </section>
-    </footer>
+    </footer> -->
 
 
-    <script defer src="scripts/script.js"></script>
+    <script defer src="./scripts/script.js"></script>
 </body>
 
 </html>

@@ -1,15 +1,13 @@
-<!doctype html>
-<html lang="nl">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
 	<meta charset="UTF-8">
-	<meta name="author" content="Tim Keizer">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Sneakerjagers</title>
-
 	<link href="styles/style.css" rel="stylesheet">
-	<link rel="stylesheet" href="cal.css" />
+
 
 	<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
@@ -22,6 +20,7 @@
 
 <body>
 	<header>
+		<img src="./images/sneakerjagers.svg" alt="">
 		<nav class="nav_menu">
 			<ul>
 				<li class="nav_item"><a href="#">sneakers</a></li>
@@ -39,26 +38,50 @@
 				<span class="bar"></span>
 				<span class="bar"></span>
 			</div>
+		</nav>
 
 
+
+		<nav class="hidden_nav">
+			<img src="./images/sneakerjagers-1.png" alt="">
+			<ul>
+				<li class="nav_item"><a href="#">sneakers</a></li>
+				<li class="nav_item"><a href="./releases.html">releases</a></li>
+				<li class="nav_item"><a href="#">resell</a></li>
+				<li class="nav_item"><a href="#">sale</a></li>
+				<li class="nav_item"><a href="#">sustainable</a></li>
+				<li class="nav_item"><a href="#">news</a></li>
+				<li class="nav_item"><a href="#">app</a></li>
+				<li class="nav_item"><a href="#">shop</a></li>
+			</ul>
+			<input class="input1" type="text" name="search_bar" id="search_sneaker"
+				placeholder="Vind je sneakers hier...">
+
+			<div class="hamburger2">
+				<span class="bar2"></span>
+				<span class="bar2"></span>
+				<span class="bar2"></span>
+			</div>
 		</nav>
 
 
 		<h1>Jouw Sneakerzoekmachine</h1>
 		<h2>Vind jouw paar paar bij meer dan 150 sneakershops</h2>
+
 	</header>
-	<input type="text" name="search_bar" id="search_sneaker" placeholder="Vind je sneakers hier...">
+
+	<input class="input1" type="text" name="search_bar" placeholder="Vind je sneakers hier...">
 
 
 	<picture>
 		<source srcset="./images/snkrsday1.jpg" media="(min-width: 700px)" />
 		<source srcset="./images/snkrsday.jpg" media="(min-width: 300px)" />
-		<img src="./images/snkrsday.jpg" alt="Advertentie1" />
+		<img src="./images/snkrsday.jpg" alt="advertentie1" />
 	</picture>
 
 
 	<!-- Upcoming Releases -->
-	<div class="upcoming">
+	<div class="toonmeer">
 		<h2>Upcoming releases</h2>
 		<a href="./releases.html">Toon meer >></a>
 	</div>
@@ -67,37 +90,45 @@
 	<section>
 
 		<article>
-			<img src="./images/schoentest1.png" alt="">
-			<h4>Fenty x Puma avantie VL 'Black'</h4>
+			<img src="./images/dime.png" alt="Dime x Vans Rowley XLT Navy release 5 oktober">
+			<h2>Dime x Vans Rowley XLT 'Navy'</h2>
 			<div class="datum">
-				<div class="maand">SEP.</div>
-				<div class="dag">27</div>
+				<div class="maand">OKT.</div>
+				<div class="dag">5</div>
 			</div>
 		</article>
 
 		<article>
-			<img src="./images/yeezy.png" alt="">
-			<h4>Nike Airmax 1 "Pink"</h4>
+			<img src="./images/clarksoriginal.png" alt="Clarks Originals Natalie green 5 oktober">
+			<h2>Clarks Originals Natalie 'green'</h2>
 			<div class="datum">
-				<div class="maand">SEP.</div>
-				<div class="dag">27</div>
+				<div class="maand">OKT.</div>
+				<div class="dag">5</div>
 			</div>
 		</article>
 		<article>
-			<img src="./images/schoentest1.png" alt="">
-			<h4>Fenty x Puma avantie VL 'Black'</h4>
+			<img src="./images/aj1 .png" alt="Air Jordan 1 Mid SE WMNS Red Stardust 5 oktober">
+			<h2>Air Jordan 1 Mid'Red Stardust'</h2>
+			<div class="datum">
+				<div class="maand">OKT.</div>
+				<div class="dag">5</div>
+			</div>
+		</article>
+		<article>
+			<img src="./images/yeezy.png" alt="Yeezy 350 Boost slate 6 oktober">
+			<h2>Yeezy 350 Boost slate</h2>
+			<div class="datum">
+				<div class="maand">OKT.</div>
+				<div class="dag">6</div>
+			</div>
+		</article>
 
-			<div class="datum">
-				<div class="maand">SEP.</div>
-				<div class="dag">27</div>
-			</div>
-		</article>
 		<article>
-			<img src="./images/schoentest1.png" alt="">
-			<h4>Fenty x Puma avantie VL 'Black'</h4>
+			<img src="./images/greyfog.png" alt="Nike dunk low 'Grey fog' 9 oktober">
+			<h2>Nike dunk low 'Grey fog'</h2>
 			<div class="datum">
-				<div class="maand">SEP.</div>
-				<div class="dag">27</div>
+				<div class="maand">OKT.</div>
+				<div class="dag">9</div>
 			</div>
 		</article>
 
@@ -109,30 +140,48 @@
 		<img src="./images/ad1.jpeg" alt="Advertentie1" />
 	</picture>
 
+
+
 	<!-- Laatste nieuws -->
-	<div class="upcoming">
-	<h2>Laatste nieuws</h2>
-	<a href="#">Toon meer >></a>
-</div>
+	<div class="toonmeer">
+		<h2>Laatste nieuws</h2>
+		<a href="#">Toon meer >></a>
+
+	</div>
 	<section class="laatstenieuws">
 		<article>
-			<h3>De FENTY x Puma Avanti komt eraan</h3>
-			<img src="./images/Ontwerp-zonder-titel-9.png" alt="">
+			<img src="./images/sneakernews1.png" alt="">
+			<h2>De Carhartt WIP x New Balance 990v6 haalt inspiratie uit lokale sportscholen</h2>
 			<p>2 uur geleden</p>
 		</article>
+
 		<article>
-			<h3>De FENTY x Puma Avanti komt eraan</h3>
-			<img src="./images/Ontwerp-zonder-titel-9.png" alt="">
+			<img src="./images/sneakernews2.png" alt="">
+			<h2>Nederlands modelabel Stitching Stories te zien op Sneakerness Londen 2022</h2>
 			<p>2 uur geleden</p>
 		</article>
+
 		<article>
-			<h3>De FENTY x Puma Avanti komt eraan</h3>
-			<img src="./images/Ontwerp-zonder-titel-9.png" alt="">
+			<img src="./images/sneakernews2.png" alt="">
+			<h2>Newsfeed The Sneaker Update Sneakerjagers podcast Ep.15</h2>
 			<p>2 uur geleden</p>
 		</article>
+
 		<article>
-			<h3>De FENTY x Puma Avanti komt eraan</h3>
-			<img src="./images/Ontwerp-zonder-titel-9.png" alt="">
+			<img src="./images/sneakernews4.png" alt="">
+			<h2>Profiteer van 10% korting op Nike Dunk bij solebox</h2>
+			<p>2 uur geleden</p>
+		</article>
+
+		<article>
+			<img src="./images/sneakernews5.png" alt="">
+			<h2>De Nike Air Max 95 SE ‘Reverse Neon’ is nu bij JD Sports verkrijgbaar</h2>
+			<p>2 uur geleden</p>
+		</article>
+
+		<article>
+			<img src="./images/sneakernews6.png" alt="">
+			<h2>Eerste blik op twee unieke Supreme x Nike Courtposite colorways</h2>
 			<p>2 uur geleden</p>
 		</article>
 
@@ -140,45 +189,170 @@
 	</section>
 
 	<!-- Nu populair -->
-	<section>
-		<h2>nu populair</h2>
+
+	<div class="toonmeer">
+		<h2>Nu populair</h2>
+		<a href="#">Toon meer >></a>
+	</div>
+
+	<section class="nu_populair">
+		<article>
+			<img src="./images/schoentest1.png" alt="">
+			<p class="nu_popular">€130,-</p>
+			<h4>Nike Air Force 1 Shadow 'Atmosphere'</h4>
+			<p> 9 aanbieders</p>
+		</article>
+
+		<article>
+			<img src="./images/airmax-pink.png" alt="">
+			<p class="nu_popular">€170,-</p>
+
+			<h4>Nike Airmax 1 'United in Victory'</h4>
+			<p> 5 aanbieders</p>
+		</article>
+
+		<article>
+			<img src="./images/airforceblack.png" alt="">
+			<p class="nu_popular">€130,-</p>
+			<h4>Fenty x Puma avantie VL 'Black'</h4>
+			<p> 1 aanbieder</p>
+		</article>
+
+		<article>
+			<img src="./images/dunkblackwhite.png" alt="">
+			<p class="nu_popular">€130,-</p>
+			<h4>Nike Dunk 'Reverse Panda'</h4>
+			<p> 2 aanbieders</p>
+		</article>
+
+		<article>
+			<img src="./images/greyfog.png" alt="">
+			<p class="nu_popular">€120,-</p>
+			<h4>Nike Dunk low 'Grey fog'</h4>
+			<p> 5 aanbieders</p>
+		</article>
+
+
 	</section>
 
+
+	<video id="video1" src="./videos/video_widescreenmp4.mp4" autoplay loop muted> >
+	</video>
+	<video id="video2" src="./videos/video_smallscreen.mp4" autoplay loop muted></video>
 	<!-- sneaker stories -->
-	<h2>Sneaker Stories</h2>
+
+	<!-- sneaker stories -->
+	<div class="toonmeer">
+		<h2>Sneaker Stories</h2>
+		<a href="#">Toon meer >></a>
+	</div>
+
+	<section class="sneakerstories">
+		<article>
+			<img src="./images/nikeswoosh.png" alt="">
+			<a href="#">News</a>
+			<h2>Air force 1 'TINAJ' is Nike's eerste fysieke .SWOOSH sneaker</h2>
+			<p>door Thimo - 2 uur geleden</p>
+		</article>
+
+		<article>
+			<img src="./images/airmax1.png" alt="">
+			<a href="#">Newsfeed</a>
+			<h2>Multi-Colored layers sieren de Nike Air Max 1 en Air Force 1</h2>
+			<p>door Marielle - 3 uur geleden</p>
+		</article>
+
+		<article>
+			<img src="./images/jacko.png" alt="">
+			<a href="#">Newsfeed</a>
+			<h2>Vier Halloween met de Adidas Forum Mod Low Low 'Jack o'Lantern'</h2>
+			<p>door Thimo - 9 uur geleden</p>
+		</article>
+
+		<article>
+			<img src="./images/converse-4.png" alt="">
+			<a href="#">Newsfeed</a>
+			<h2>Converse introduceert nieuwe Gold Standard Collection</h2>
+			<p>door Lotte - 21 uur geleden</p>
+		</article>
+
+		<article>
+			<img src="./images/22korting.png" alt="">
+			<a href="#">Newsfeed</a>
+			<h2>Krijg 22% korting op populaire Nike items bij AFEW</h2>
+			<p>door Maren - 23 uur geleden</p>
+		</article>
+
+	</section>
+
+
+	<button type="button" id="more-sneaker-news">More sneaker news >></button>
 
 
 
+	<section class="footer-text">
+		<p>Of je nu op zoek bent naar exclusieve sneakers voor vrouwen of de nieuwste Nikes voor mannen, Sneakerjagers
+			is er
+			voor jou. Je kunt duizenden sneakers vinden van meer dan +150 webshops in onze sneakerzoekmachine. Bekijk
+			sneakers van de populairste merken zoals o.a. Nike, Air Jordan, adidas, Yeezy, PUMA, New Balance, ASICS,
+			Karhu,
+			Converse, Vans, Reebok, Kangaroos, Mizuno en Salomon!</p>
+
+		<p>Daarnaast vindt je er ook de populairste sneakermodellen zoals Nike Air Max 90, Nike Air Force 1, Air Jordan
+			1,
+			adidas Samba, PUMA Future Rider, Karhu Fusion 2.0, Vans Old Skool, New Balance 550, ASICS Gel Kayano en nog
+			vele
+			andere modellen!</p>
+
+		<p>Benieuwd naar upcoming sneaker? Bekijk dan de Sneakerjagers releasekalender. Zorgen dat je nooit meer een
+			release
+			mist? Download dan onze Sneakerjagers App en stel de pushnotificaties in!</p>
+
+		<p>Heb je toch een sneaker release gemist? Bekijk onze sneaker resell pagina om de huidige prijzen te bekijken
+			op
+			sneakermarktplaatsen zoals StockX, Klekt, GOAT en meer!</p>
+
+
+		<p>Op zoek naar een goede deal? Op onze sneaker sale pagina vind je alle sneakers die momenteel in de aanbieding
+			zijn. Pak jouw steal!</p>
+
+
+		<p>En vergeet niet om onze blog in de gaten te houden voor het laatste sneaker nieuws, inclusief hyped sneaker
+			releases, sneaker inspiratie, Where To Cop gidsen en de hottest sneaker collabs! Voor het laatste
+			sneakernieuws,
+			volg ons op Instagram, Facebook en Twitter!</p>
+
+	</section>
 
 	<!-- Footer -->
 	<footer>
 		<img src="./images/sneakerjagers-1.png" alt="">
 		<!--Second Quik Links-->
-		<section>
-			<h3>Quik Links</h3>
-			<ul>
-				<li>Merken</li>
-				<li>Modellen</li>
-				<li>Black Friday</li>
-				<li>Nike Air Max day</li>
-				<li>Sneaker Shopping Guide</li>
-				<li>Sneaker Size Guide</li>
-				<li>Sneaker FAQ</li>
-			</ul>
+		<h3>Quik Links</h3>
+		<ul>
+			<li>Merken</li>
+			<li>Modellen</li>
+			<li>Black Friday</li>
+			<li>Nike Air Max day</li>
+			<li>Sneaker Shopping Guide</li>
+			<li>Sneaker Size Guide</li>
+			<li>Sneaker FAQ</li>
+		</ul>
 
-			<!--Second Company-->
-			<h3>Over ons</h3>
-			<ul>>
-				<li>Jobs</li>
-				<li>Adverteren</li>
-			</ul>
 
-			<!-- third support -->
-			<h3> Support </h3>
-			<ul>
-				<li>Contact</li>
-				<li>FAQ</li>
-			</ul>
+		<!--Second Company-->
+		<h3>Over ons</h3>
+		<ul>
+			<li>Jobs</li>
+			<li>Adverteren</li>
+		</ul>
+
+		<!-- third support -->
+		<h3> Support </h3>
+		<ul>
+			<li>Contact</li>
+			<li>FAQ</li>
+		</ul>
 	</footer>
 
 
