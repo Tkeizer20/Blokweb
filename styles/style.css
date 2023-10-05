@@ -185,7 +185,7 @@ header h2{
 header {
 	background-image:
 		linear-gradient(to bottom, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.564)),
-		url('/images/hero1.jpeg');
+		url('./images/hero1.jpeg');
 	max-width: 100%;
 	background-size: cover;
 	background-position: center;
